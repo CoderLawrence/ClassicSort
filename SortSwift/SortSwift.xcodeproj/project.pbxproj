@@ -15,6 +15,7 @@
 		218011CF243F197C005F1A04 /* Binary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218011CE243F197C005F1A04 /* Binary.swift */; };
 		218011D1243F1FD7005F1A04 /* Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218011D0243F1FD7005F1A04 /* Selection.swift */; };
 		218011D62440291B005F1A04 /* Insert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218011D52440291B005F1A04 /* Insert.swift */; };
+		21DF3EA3248645090067D196 /* Quick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DF3EA2248645090067D196 /* Quick.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,7 @@
 		218011CE243F197C005F1A04 /* Binary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binary.swift; sourceTree = "<group>"; };
 		218011D0243F1FD7005F1A04 /* Selection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selection.swift; sourceTree = "<group>"; };
 		218011D52440291B005F1A04 /* Insert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insert.swift; sourceTree = "<group>"; };
+		21DF3EA2248645090067D196 /* Quick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quick.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				211C289B247F984A00DD2137 /* Fibonacci.swift */,
 				211C289D2480E75B00DD2137 /* Stack.swift */,
 				213BFBFF248505CC006BE4AB /* Recursive.swift */,
+				21DF3EA2248645090067D196 /* Quick.swift */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				218011D1243F1FD7005F1A04 /* Selection.swift in Sources */,
 				218011C6243F1601005F1A04 /* main.swift in Sources */,
 				211C289C247F984A00DD2137 /* Fibonacci.swift in Sources */,
+				21DF3EA3248645090067D196 /* Quick.swift in Sources */,
 				211C289E2480E75B00DD2137 /* Stack.swift in Sources */,
 				218011CF243F197C005F1A04 /* Binary.swift in Sources */,
 				213BFC00248505CC006BE4AB /* Recursive.swift in Sources */,

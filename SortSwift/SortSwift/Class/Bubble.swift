@@ -32,4 +32,20 @@ class Bubble {
         
         return result
     }
+    
+    class func bubbleSort<T: Comparable>(array:[T]) -> [T] {
+        //优化性能版本，较上面减少了5次遍历
+        var results = array
+        for i in 0..<array.count - 1 {
+            for j in 0..<results.count - 1 - i {
+                if results[j] > results[j + 1] {
+                    let temp = results[j]
+                    results[j] = results[j + 1]
+                    results[j + 1] = temp
+                }
+            }
+        }
+        
+        return results
+    }
 }
