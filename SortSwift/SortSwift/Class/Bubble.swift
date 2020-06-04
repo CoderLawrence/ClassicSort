@@ -34,7 +34,7 @@ class Bubble {
     }
     
     class func bubbleSort<T: Comparable>(array:[T]) -> [T] {
-        //优化性能版本，较上面减少了5次遍历
+        //优化性能版本，较上面的写法减少了5次遍历
         var results = array
         for i in 0..<array.count - 1 {
             for j in 0..<results.count - 1 - i {
