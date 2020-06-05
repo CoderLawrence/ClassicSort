@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		211C289C247F984A00DD2137 /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C289B247F984A00DD2137 /* Fibonacci.swift */; };
 		211C289E2480E75B00DD2137 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C289D2480E75B00DD2137 /* Stack.swift */; };
+		21210683248A4B5B00D776A6 /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21210682248A4B5A00D776A6 /* Shell.swift */; };
 		213BFC00248505CC006BE4AB /* Recursive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213BFBFF248505CC006BE4AB /* Recursive.swift */; };
 		218011C6243F1601005F1A04 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218011C5243F1601005F1A04 /* main.swift */; };
 		218011CD243F1644005F1A04 /* Bubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218011CC243F1644005F1A04 /* Bubble.swift */; };
@@ -33,6 +34,7 @@
 /* Begin PBXFileReference section */
 		211C289B247F984A00DD2137 /* Fibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
 		211C289D2480E75B00DD2137 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		21210682248A4B5A00D776A6 /* Shell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shell.swift; sourceTree = "<group>"; };
 		213BFBFF248505CC006BE4AB /* Recursive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recursive.swift; sourceTree = "<group>"; };
 		218011C2243F1601005F1A04 /* SortSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SortSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		218011C5243F1601005F1A04 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				211C289D2480E75B00DD2137 /* Stack.swift */,
 				213BFBFF248505CC006BE4AB /* Recursive.swift */,
 				21DF3EA2248645090067D196 /* Quick.swift */,
+				21210682248A4B5A00D776A6 /* Shell.swift */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			files = (
 				218011D62440291B005F1A04 /* Insert.swift in Sources */,
 				218011D1243F1FD7005F1A04 /* Selection.swift in Sources */,
+				21210683248A4B5B00D776A6 /* Shell.swift in Sources */,
 				218011C6243F1601005F1A04 /* main.swift in Sources */,
 				211C289C247F984A00DD2137 /* Fibonacci.swift in Sources */,
 				21DF3EA3248645090067D196 /* Quick.swift in Sources */,

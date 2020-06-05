@@ -39,4 +39,25 @@ class Insert {
         
         return result
     }
+    
+    class func insetionSort<T:Comparable>(array:[T]) ->[T] {
+        var results = array
+        //从第二个元素开始遍历
+        for i in 1..<results.count {
+            //当前待插入的元素
+            let insertion = results[i]
+            //从后往前遍历之前的所有元素
+            for j in (0..<i).reversed() {
+                if insertion < results[j] {
+                    results[j + 1] = results[j]
+                    results[j] = insertion
+                } else {
+                    results[j + 1] = insertion
+                    break
+                }
+            }
+        }
+        
+        return results
+    }
 }
