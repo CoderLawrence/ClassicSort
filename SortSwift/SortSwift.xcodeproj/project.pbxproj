@@ -16,6 +16,7 @@
 		218011CF243F197C005F1A04 /* Binary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218011CE243F197C005F1A04 /* Binary.swift */; };
 		218011D1243F1FD7005F1A04 /* Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218011D0243F1FD7005F1A04 /* Selection.swift */; };
 		218011D62440291B005F1A04 /* Insert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218011D52440291B005F1A04 /* Insert.swift */; };
+		21BF34EC2498CCEC00E49E99 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BF34EB2498CCEC00E49E99 /* Graph.swift */; };
 		21DF3EA3248645090067D196 /* Quick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DF3EA2248645090067D196 /* Quick.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 		218011CE243F197C005F1A04 /* Binary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binary.swift; sourceTree = "<group>"; };
 		218011D0243F1FD7005F1A04 /* Selection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selection.swift; sourceTree = "<group>"; };
 		218011D52440291B005F1A04 /* Insert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insert.swift; sourceTree = "<group>"; };
+		21BF34EB2498CCEC00E49E99 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
 		21DF3EA2248645090067D196 /* Quick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quick.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +95,7 @@
 				213BFBFF248505CC006BE4AB /* Recursive.swift */,
 				21DF3EA2248645090067D196 /* Quick.swift */,
 				21210682248A4B5A00D776A6 /* Shell.swift */,
+				21BF34EB2498CCEC00E49E99 /* Graph.swift */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21BF34EC2498CCEC00E49E99 /* Graph.swift in Sources */,
 				218011D62440291B005F1A04 /* Insert.swift in Sources */,
 				218011D1243F1FD7005F1A04 /* Selection.swift in Sources */,
 				21210683248A4B5B00D776A6 /* Shell.swift in Sources */,

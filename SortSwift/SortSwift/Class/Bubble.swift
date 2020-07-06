@@ -45,7 +45,7 @@ class Bubble {
                 }
             }
         }
-        
+
         return results
     }
 }
