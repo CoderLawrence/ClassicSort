@@ -72,6 +72,19 @@ func findKthLargest(_ nums: [Int], _ k: Int) -> Int {
     return array[array.count - k]
 }
 
+func fibonacci(_ n: Int) -> Int {
+    if n <= 1 { return n }
+    var first: Int = 0
+    var second: Int = 1
+    for _ in 0..<n - 1 {
+        let sum = first + second
+        first = second
+        second = sum
+    }
+    
+    return second
+}
+
 print("=======================Sort======================")
 print("Bubble sort \(Bubble.bubbleSort(array:[1, 3, 5, 4, 2]))")
 print("Binary find \(Binary.find([1, 2, 3, 4, 5, 6], 4))")
@@ -82,29 +95,30 @@ print("Shell sort \(Shell.sort(array:[1, 3, 5, 4, 2]))")
 print("=========================Recursive=================")
 print("Factorial \(Recursive.f(list: [1, 2, 3, 4, 5]))")
 print("Fiboncci \(Fibonacci.fibonacci(5))");
-print("Recursive max \(Recursive.max(list: [1, 0, 25, 30, -1]))")
-print("==========================Graph==========================")
-var planeGraph = Graph<String>()
-var hk = planeGraph.createVertex(data: "Hong Kong")
-var ny = planeGraph.createVertex(data: "New York")
-var mosc = planeGraph.createVertex(data: "Moscow")
-var ld = planeGraph.createVertex(data: "London")
-var pairs = planeGraph.createVertex(data: "Pairs")
-var am = planeGraph.createVertex(data: "Amsterdam")
-var sf = planeGraph.createVertex(data: "San Francisco")
-var ja = planeGraph.createVertex(data: "Juneau Alaska")
-var tm = planeGraph.createVertex(data: "Timbuktu")
-
-planeGraph.addEdge(type: .undirected, soruce: hk, destination: sf, weight: 500.0)
-planeGraph.addEdge(type: .undirected, soruce: hk, destination: mosc, weight: 900.0)
-planeGraph.addEdge(type: .directed, soruce: sf, destination: ja, weight: 300.0)
-planeGraph.addEdge(type: .undirected, soruce: sf, destination: ny, weight: 150.0)
-planeGraph.addEdge(type: .directed, soruce: mosc, destination: ny, weight: 750.0)
-planeGraph.addEdge(type: .directed, soruce: ld, destination: mosc, weight: 200.0)
-planeGraph.addEdge(type: .undirected, soruce: ld, destination: pairs, weight: 70.0)
-planeGraph.addEdge(type: .directed, soruce: sf, destination: pairs, weight: 800.0)
-planeGraph.addEdge(type: .undirected, soruce: pairs, destination: tm, weight: 250.0)
-planeGraph.addEdge(type: .directed, soruce: am, destination: pairs, weight: 50.0)
-print(planeGraph.description)
-print("===================================")
-print(findKthLargest([3,2,1,5,6,4], 2))
+print("Fiboncci \(fibonacci(10))")
+//print("Recursive max \(Recursive.max(list: [1, 0, 25, 30, -1]))")
+//print("==========================Graph==========================")
+//var planeGraph = Graph<String>()
+//var hk = planeGraph.createVertex(data: "Hong Kong")
+//var ny = planeGraph.createVertex(data: "New York")
+//var mosc = planeGraph.createVertex(data: "Moscow")
+//var ld = planeGraph.createVertex(data: "London")
+//var pairs = planeGraph.createVertex(data: "Pairs")
+//var am = planeGraph.createVertex(data: "Amsterdam")
+//var sf = planeGraph.createVertex(data: "San Francisco")
+//var ja = planeGraph.createVertex(data: "Juneau Alaska")
+//var tm = planeGraph.createVertex(data: "Timbuktu")
+//
+//planeGraph.addEdge(type: .undirected, soruce: hk, destination: sf, weight: 500.0)
+//planeGraph.addEdge(type: .undirected, soruce: hk, destination: mosc, weight: 900.0)
+//planeGraph.addEdge(type: .directed, soruce: sf, destination: ja, weight: 300.0)
+//planeGraph.addEdge(type: .undirected, soruce: sf, destination: ny, weight: 150.0)
+//planeGraph.addEdge(type: .directed, soruce: mosc, destination: ny, weight: 750.0)
+//planeGraph.addEdge(type: .directed, soruce: ld, destination: mosc, weight: 200.0)
+//planeGraph.addEdge(type: .undirected, soruce: ld, destination: pairs, weight: 70.0)
+//planeGraph.addEdge(type: .directed, soruce: sf, destination: pairs, weight: 800.0)
+//planeGraph.addEdge(type: .undirected, soruce: pairs, destination: tm, weight: 250.0)
+//planeGraph.addEdge(type: .directed, soruce: am, destination: pairs, weight: 50.0)
+//print(planeGraph.description)
+//print("===================================")
+//print(findKthLargest([3,2,1,5,6,4], 2))
